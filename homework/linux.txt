@@ -26,6 +26,6 @@ heimdal    18883  0.0  0.0 116000  8832 ?        Ssl  10:28   0:00 /usr/bin/spee
  2071  mv exercise/copy.txt backup/copy.txt
  2072  wc -l exercise/processes.txt 
  2073  wc -l exercise/processes.txt > exercise/selected.txt
- 2074  grep /bin exercise/processes.txt >> exercise/selected.txt 
+ 2074  grep "/bin" exercise/processes.txt >> exercise/selected.txt 
  2075  history
  2076  history | tail -n 10 > commands.txt
